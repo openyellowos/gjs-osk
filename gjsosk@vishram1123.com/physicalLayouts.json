@@ -97,5 +97,582 @@
         [{"key":"LFSH", "width": 2}, {"key":"LSGT", "width": 2}, {"key":"AB08", "width": 2}, {"key":"AB01", "width": 3}, {"key":"AB02", "width": 3}, {"key":"AB03", "width": 3}, {"key":"AB04", "width": 3}, {"split":true}, {"key":"AB04", "width": 3}, {"key":"AB05", "width": 3}, {"key":"AB06", "width": 3}, {"key":"AB07", "width": 3}, {"key":"AB09", "width": 3}, {"key":"AB10", "width": 2}, {"key": "BKSP", "width": 2.5}],
         [{"key":"CAPS", "width": 2.5}, {"key":"LCTL", "width": 2.5}, {"key":"LWIN", "width": 2.5}, {"key":"LALT", "width": 2.5}, {"key":"SPCE", "width":8}, {"split":true}, {"key":"SPCE", "width":4}, {"key":"RALT", "width": 2.5}, {"key":"RCTL", "width": 2.5}, {"key":"LEFT", "width": 2.5}, [{"key":"UP", "width": 2.5, "height": 0.5}, {"key":"DOWN", "width": 2.5, "height": 0.5}], {"key":"RGHT", "width": 2.5}, {"key":"RTRN", "width": 3}],
         { "split": true, "settings": true, "close": true }
-    ]
+    ],
+    
+"oYo US": [
+  [
+    {
+      "key": "ESC",
+      "width": 1
+    },
+    {
+      "key": "FK01"
+    },
+    {
+      "key": "FK02"
+    },
+    {
+      "key": "FK03"
+    },
+    {
+      "key": "FK04"
+    },
+    {
+      "key": "FK05"
+    },
+    {
+      "key": "FK06"
+    },
+    {
+      "key": "FK07"
+    },
+    {
+      "key": "FK08"
+    },
+    {
+      "key": "FK09"
+    },
+    {
+      "key": "FK10"
+    },
+    {
+      "key": "FK11"
+    },
+    {
+      "key": "FK12"
+    },
+    {
+      "key": "DELE",
+      "width": 1.5
+    }
+  ],
+  [
+    {
+      "width": 1,
+      "key": "Eisu_toggle"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "TLDE"
+    },
+    {
+      "key": "AE01"
+    },
+    {
+      "key": "AE02"
+    },
+    {
+      "key": "AE03"
+    },
+    {
+      "key": "AE04"
+    },
+    {
+      "key": "AE05"
+    },
+    {
+      "key": "AE06"
+    },
+    {
+      "key": "AE07"
+    },
+    {
+      "key": "AE08"
+    },
+    {
+      "key": "AE09"
+    },
+    {
+      "key": "AE10"
+    },
+    {
+      "key": "AE11"
+    },
+    {
+      "key": "AE12"
+    },
+    {
+      "key": "BKSP",
+      "width": 1.5
+    }
+  ],
+  [
+    {
+      "key": "TAB",
+      "width": 1.5
+    },
+    {
+      "key": "AD01"
+    },
+    {
+      "key": "AD02"
+    },
+    {
+      "key": "AD03"
+    },
+    {
+      "key": "AD04"
+    },
+    {
+      "key": "AD05"
+    },
+    {
+      "key": "AD06"
+    },
+    {
+      "key": "AD07"
+    },
+    {
+      "key": "AD08"
+    },
+    {
+      "key": "AD09"
+    },
+    {
+      "key": "AD10"
+    },
+    {
+      "key": "AD11"
+    },
+    {
+      "key": "AD12"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "BKSL"
+    }
+  ],
+  [
+    {
+      "key": "CAPS",
+      "width": 2
+    },
+    {
+      "key": "AC01"
+    },
+    {
+      "key": "AC02"
+    },
+    {
+      "key": "AC03"
+    },
+    {
+      "key": "AC04"
+    },
+    {
+      "key": "AC05"
+    },
+    {
+      "key": "AC06"
+    },
+    {
+      "key": "AC07"
+    },
+    {
+      "key": "AC08"
+    },
+    {
+      "key": "AC09"
+    },
+    {
+      "key": "AC10"
+    },
+    {
+      "key": "AC11"
+    },
+    {
+      "key": "RTRN",
+      "height": 1,
+      "width": 1.5
+    }
+  ],
+  [
+    {
+      "key": "LFSH",
+      "width": 2.5
+    },
+    {
+      "key": "AB01"
+    },
+    {
+      "key": "AB02"
+    },
+    {
+      "key": "AB03"
+    },
+    {
+      "key": "AB04"
+    },
+    {
+      "key": "AB05"
+    },
+    {
+      "key": "AB06"
+    },
+    {
+      "key": "AB07"
+    },
+    {
+      "key": "AB08"
+    },
+    {
+      "key": "AB09"
+    },
+    {
+      "key": "AB10"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "UP"
+    },
+    {
+      "key": "RTSH",
+      "width": 1
+    }
+  ],
+  [
+    {
+      "key": "LCTL"
+    },
+    {
+      "key": "LWIN"
+    },
+    {
+      "width": 1,
+      "key": "ALT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "LALT"
+    },
+    {
+      "key": "SPCE",
+      "width": 5.5
+    },
+    {
+      "key": "RALT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "PRSC"
+    },
+    {
+      "key": "RCTL"
+    },
+    {
+      "key": "LEFT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "DOWN"
+    },
+    {
+      "key": "RGHT"
+    }
+  ],
+  {
+    "split": false,
+    "settings": true,
+    "close": true
+  }
+],
+
+"oYo JP": [
+  [
+    {
+      "key": "ESC",
+      "width": 1
+    },
+    {
+      "key": "FK01"
+    },
+    {
+      "key": "FK02"
+    },
+    {
+      "key": "FK03"
+    },
+    {
+      "key": "FK04"
+    },
+    {
+      "key": "FK05"
+    },
+    {
+      "key": "FK06"
+    },
+    {
+      "key": "FK07"
+    },
+    {
+      "key": "FK08"
+    },
+    {
+      "key": "FK09"
+    },
+    {
+      "key": "FK10"
+    },
+    {
+      "key": "FK11"
+    },
+    {
+      "key": "FK12"
+    },
+    {
+      "key": "DELE",
+      "width": 2.5
+    }
+  ],
+  [
+    {
+      "width": 1,
+      "key": "Zenkaku_Hankaku"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "TLDE"
+    },
+    {
+      "key": "AE01"
+    },
+    {
+      "key": "AE02"
+    },
+    {
+      "key": "AE03"
+    },
+    {
+      "key": "AE04"
+    },
+    {
+      "key": "AE05"
+    },
+    {
+      "key": "AE06"
+    },
+    {
+      "key": "AE07"
+    },
+    {
+      "key": "AE08"
+    },
+    {
+      "key": "AE09"
+    },
+    {
+      "key": "AE10"
+    },
+    {
+      "key": "AE11"
+    },
+    {
+      "key": "AE12"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "YEN"
+    },
+    {
+      "key": "BKSP",
+      "width": 1.5
+    }
+  ],
+  [
+    {
+      "key": "TAB",
+      "width": 2
+    },
+    {
+      "key": "AD01"
+    },
+    {
+      "key": "AD02"
+    },
+    {
+      "key": "AD03"
+    },
+    {
+      "key": "AD04"
+    },
+    {
+      "key": "AD05"
+    },
+    {
+      "key": "AD06"
+    },
+    {
+      "key": "AD07"
+    },
+    {
+      "key": "AD08"
+    },
+    {
+      "key": "AD09"
+    },
+    {
+      "key": "AD10"
+    },
+    {
+      "key": "AD11"
+    },
+    {
+      "key": "AD12"
+    },
+    {
+      "key": "RTRN",
+      "height": 2,
+      "width": 1.5
+    }
+  ],
+  [
+    {
+      "key": "CAPS",
+      "width": 2
+    },
+    {
+      "key": "AC01"
+    },
+    {
+      "key": "AC02"
+    },
+    {
+      "key": "AC03"
+    },
+    {
+      "key": "AC04"
+    },
+    {
+      "key": "AC05"
+    },
+    {
+      "key": "AC06"
+    },
+    {
+      "key": "AC07"
+    },
+    {
+      "key": "AC08"
+    },
+    {
+      "key": "AC09"
+    },
+    {
+      "key": "AC10"
+    },
+    {
+      "key": "AC11"
+    },
+    {
+      "key": "BKSL"
+    }
+  ],
+  [
+    {
+      "key": "LFSH",
+      "width": 2.5
+    },
+    {
+      "key": "AB01"
+    },
+    {
+      "key": "AB02"
+    },
+    {
+      "key": "AB03"
+    },
+    {
+      "key": "AB04"
+    },
+    {
+      "key": "AB05"
+    },
+    {
+      "key": "AB06"
+    },
+    {
+      "key": "AB07"
+    },
+    {
+      "key": "AB08"
+    },
+    {
+      "key": "AB09"
+    },
+    {
+      "key": "AB10"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "RO"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "UP"
+    },
+    {
+      "key": "RTSH",
+      "width": 1
+    }
+  ],
+  [
+    {
+      "key": "LCTL"
+    },
+    {
+      "key": "LWIN"
+    },
+    {
+      "width": 1,
+      "key": "ALT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "LALT"
+    },
+    {
+      "key": "SPCE",
+      "width": 6.5
+    },
+    {
+      "key": "RALT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "PRSC"
+    },
+    {
+      "key": "RCTL"
+    },
+    {
+      "key": "LEFT"
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "key": "DOWN"
+    },
+    {
+      "key": "RGHT"
+    }
+  ],
+  {
+    "split": false,
+    "settings": true,
+    "close": true
+  }
+]
+    
 }
