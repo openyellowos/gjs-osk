@@ -1,0 +1,22 @@
+#!/usr/bin/make -f
+
+UUID_DIR := gjsosk@openyellowos.com
+EXT_SRC  := $(UUID_DIR)
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	# nothing to build
+
+override_dh_auto_install:
+	# Install extension system-wide
+	mkdir -p debian/oyo-gjs-osk/usr/share/gnome-shell/extensions/$(UUID_DIR)
+	cp -a $(EXT_SRC)/* debian/oyo-gjs-osk/usr/share/gnome-shell/extensions/$(UUID_DIR)/
+
+	# Install GSettings schema to system schema dir (recommended for system-wide extensions)
+	if [ -d "$(EXT_SRC)/schemas" ]; then \
+	  mkdir -p debian/oyo-gjs-osk/usr/share/glib-2.0/schemas; \
+	  cp -a $(EXT_SRC)/schemas/*.xml debian/oyo-gjs-osk/usr/share/glib-2.0/schemas/; \
+	fi
+

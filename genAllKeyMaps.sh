@@ -1,4 +1,4 @@
-dir="gjsosk@vishram1123.com/keycodes"
+dir="gjsosk@openyellowos.com/keycodes"
 rm -rf $dir
 mkdir $dir
 for i in $(python listKeyboardLayouts.py); do
@@ -9,5 +9,5 @@ for i in $(python listKeyboardLayouts.py); do
 		python genKeyMap.py "$i+$j" > "$dir/$i+$j.json"
 	done;
 done;
-tar -Jcvf gjsosk@vishram1123.com/keycodes.tar.xz -C $dir/ .
+tar -Jcvf gjsosk@openyellowos.com/keycodes.tar.xz -C $dir/ .
 rm -rf $dir
