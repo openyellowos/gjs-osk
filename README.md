@@ -1,15 +1,12 @@
-
-## open.Yellow.os customizations
-
-This fork adds the following features on top of the upstream GJS OSK:
-
-- Custom **US** and **JP** physical keyboard layouts for open.Yellow.os
-- Japanese-specific key support (e.g. Hankaku/Zenkaku via KEY_GRAVE)
-- Layout adjustments tested with **Wayland + Fcitx5**
-- Minor fixes to ensure correct key labels in Japanese keyboard environments
-
-These changes are intended to improve the out-of-box experience on
-open.Yellow.os while keeping upstream behavior intact.
+> ⚠️ **Fork notice**
+>
+> This repository is a fork of the original GJS OSK project by **Vishram1123**:  
+> https://github.com/Vishram1123/gjs-osk
+>
+> This fork is maintained for **open.Yellow.os** and includes additional
+> custom keyboard layouts and minor adjustments for Japanese environments.
+>  
+> The original design, architecture, and license (GPL-3.0) are fully respected.
 
 # [GJS OSK](https://extensions.gnome.org/extension/5949/gjs-osk/)
 A (marginally) better on screen keyboard for GNOME 45+ (go to the [pre-45 branch](https://github.com/Vishram1123/gjs-osk/tree/pre-45) for compatibility from gnome 42-44)
@@ -54,3 +51,15 @@ A (marginally) better on screen keyboard for GNOME 45+ (go to the [pre-45 branch
   - To generate a single keyboard layout, install `xkbcommon` through `pip` and run `genKeyMap.py` with `layout+variant` as the argument (`pip install xkbcommon` then `python genKeyMap.py de+dvorak` for example)
 
 **Help in this area is greatly appreciated!**
+
+## open.Yellow.os customizations
+
+This fork adds the following features on top of the upstream GJS OSK:
+
+- Custom **US** and **JP** physical keyboard layouts for open.Yellow.os
+- Japanese-specific key support (e.g. Hankaku/Zenkaku via KEY_GRAVE)
+- Layout adjustments tested with **Wayland + Fcitx5**
+- Minor fixes to ensure correct key labels in Japanese keyboard environments
+
+These changes are intended to improve the out-of-box experience on
+open.Yellow.os while keeping upstream behavior intact.
