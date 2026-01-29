@@ -4,7 +4,9 @@ Priority: optional
 Maintainer: open.Yellow.os <maintainer@openyellowos.com>
 Standards-Version: 4.6.2
 Rules-Requires-Root: no
-Build-Depends: debhelper-compat (= 13)
+Build-Depends:
+ debhelper-compat (= 13),
+ libglib2.0-bin
 
 Package: oyo-gjs-osk
 Architecture: all

@@ -1,11 +1,11 @@
 8813bdbff7cff28b336b8af5941282cc  usr/share/doc/oyo-gjs-osk/changelog.gz
 9374bd57fe7bd39c29e9d2db576aa880  usr/share/doc/oyo-gjs-osk/copyright
-232cd16cc829871563fe83dbe7a1b7c0  usr/share/glib-2.0/schemas/org.gnome.shell.extensions.gjsosk.gschema.xml
 671b65099d9f0385e9f84b9cfd6953a7  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/extension.js
 86c7a555977d2d7d410a06ae55426f2d  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/keycodes.tar.xz
 0277088b3188a772e4b0ce8430dd16bd  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/metadata.json
 c3c722bc6cabdf1df413c1b651ba3477  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/physicalLayouts.json
 357b564d24c66356d1b7f7444283a536  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/prefs.js
+553c3b8333ec48fcb0fff2dc3abebba6  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/schemas/gschemas.compiled
 232cd16cc829871563fe83dbe7a1b7c0  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/schemas/org.gnome.shell.extensions.gjsosk.gschema.xml
 f43331849aa6863c68e179b0f1320fe5  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/stylesheet.css
 44d0e7dcf4f38e3ee332341b88fd7590  usr/share/gnome-shell/extensions/gjsosk@openyellowos.com/ui/icons/hicolor/scalable/actions/alt-dark.svg
