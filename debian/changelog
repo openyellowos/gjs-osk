@@ -1,3 +1,10 @@
+oyo-gjs-osk (0.2.0+nmu1) unstable; urgency=medium
+
+  * 追加したレイアウトを選択しても反映されない不具合を修正
+  * 
+
+ -- toshio <solution92001@gmail.com>  Sat, 31 Jan 2026 18:14:49 +0900
+
 oyo-gjs-osk (0.2.0) unstable; urgency=medium
 
   * 設定画面が表示されない不具合修正

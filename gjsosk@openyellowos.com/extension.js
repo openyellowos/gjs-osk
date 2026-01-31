@@ -933,14 +933,18 @@ class Keyboard extends Dialog {
         this.box.set_opacity(0);
         this.keys = [];
         let monitor = Main.layoutManager.monitors[currentMonitorId] ?? Main.layoutManager.primaryMonitor
-        let layoutIdx = (monitor.width > monitor.height) ? this.settings.get_int("layout-landscape") : this.settings.get_int("layout-portrait")
+        const layoutIdx = (monitor.width > monitor.height)
+            ? this.settings.get_int("layout-landscape")
+            : this.settings.get_int("layout-portrait");
+
+        const layoutNames = Object.keys(layouts ?? {});
         let currentLayout;
-        if (layoutIdx < 10) {
-            let layoutName = Object.keys(layouts)[layoutIdx];
+        // 物理レイアウトは「layoutsの件数」まで。範囲外(=末尾のCustom含む)はCustomへ。
+        if (layoutIdx >= 0 && layoutIdx < layoutNames.length) {
+            const layoutName = layoutNames[layoutIdx];
             currentLayout = layouts[layoutName];
-        }
-        else {
-            currentLayout = JSON.parse(this.settings.get_string("custom-layout"))
+        } else {
+            currentLayout = JSON.parse(this.settings.get_string("custom-layout"));
         }
         this.box.width = Math.round((monitor.width - this.settings.get_int("snap-spacing-px") * 2) * (currentLayout[currentLayout.length - 1].split ? 1 : this.widthPercent))
         this.box.height = Math.round((monitor.height - this.settings.get_int("snap-spacing-px") * 2) * this.heightPercent)
