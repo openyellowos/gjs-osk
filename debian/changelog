@@ -1,4 +1,4 @@
-oyo-gjs-osk (0.2.0+nmu1) unstable; urgency=medium
+oyo-gjs-osk (0.3.0) unstable; urgency=medium
 
   * 追加したレイアウトを選択しても反映されない不具合を修正
   * 
