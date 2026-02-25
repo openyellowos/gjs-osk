@@ -1,3 +1,10 @@
+oyo-gjs-osk (0.3.1) UNRELEASED; urgency=medium
+
+  * Backspace/Capslockキーのラベルを省略化(←Back/Caps)
+  * 
+
+ -- toshio <toshio@oYo>  Wed, 25 Feb 2026 22:28:44 +0900
+
 oyo-gjs-osk (0.3.0) unstable; urgency=medium
 
   * 追加したレイアウトを選択しても反映されない不具合を修正
