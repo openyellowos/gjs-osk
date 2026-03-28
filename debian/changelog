@@ -1,4 +1,10 @@
-oyo-gjs-osk (0.3.1) UNRELEASED; urgency=medium
+oyo-gjs-osk (0.4.0) UNRELEASED; urgency=medium
+
+  * 日本語キーボードのレイアウトを修正(Tab列)
+
+ -- toshio <solution92001@gmail.com>  Sat, 28 Mar 2026 20:54:43 +0900
+
+oyo-gjs-osk (0.3.1) unstable; urgency=medium
 
   * Backspace/Capslockキーのラベルを省略化(←Back/Caps)
   * 

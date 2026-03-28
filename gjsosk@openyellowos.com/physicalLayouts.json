@@ -383,7 +383,7 @@
   }
 ],
 
-"oYo JP": [
+"oYo JP":[
   [
     {
       "key": "ESC",
@@ -489,7 +489,7 @@
   [
     {
       "key": "TAB",
-      "width": 2
+      "width": 1.5
     },
     {
       "key": "AD01"
@@ -525,7 +525,8 @@
       "key": "AD11"
     },
     {
-      "key": "AD12"
+      "key": "AD12",
+      "width": 1.5
     },
     {
       "key": "RTRN",
@@ -668,11 +669,10 @@
       "key": "RGHT"
     }
   ],
-  {
-    "split": false,
-    "settings": true,
-    "close": true
-  }
-]
-    
+    {
+      "split": false,
+      "settings": true,
+      "close": true
+    }
+  ]   
 }
